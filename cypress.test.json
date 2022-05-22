@@ -1,0 +1,7 @@
+{
+    "baseUrl": "http://google.co.uk",
+    "env": {
+        "username": "standard_user_test",
+        "password": "standard_password_test"
+    }
+}

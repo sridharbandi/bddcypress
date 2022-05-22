@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://cypress.io",
+    "env": {
+        "username": "standard_user_dev",
+        "password": "standard_password_dev"
+    }
+}

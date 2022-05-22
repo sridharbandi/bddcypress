@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "line": 2,
+    "id": "login-functionality",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-functionality;login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is on Sauce demo page",
+            "result": {
+              "status": "passed",
+              "duration": 1139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User logged in with \"standard_user\" \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 1109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should login successful",
+            "result": {
+              "status": "passed",
+              "duration": 34000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
