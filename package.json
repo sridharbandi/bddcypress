@@ -8,6 +8,7 @@
     "cy:dasboard": "./node_modules/.bin/cypress run --browser chrome --headed --record --key 81646775-c1df-4787-82f1-f94724235690 --spec cypress/integration/e2e/*.spec.js",
     "cy:runchromeheaded": "./node_modules/.bin/cypress-tags run --browser chrome --headed",
     "cy:runchromeheadless": "./node_modules/.bin/cypress-tags run --browser chrome",
+    "cy:login": "./node_modules/.bin/cypress-tags run -e TAGS='@login'  --browser chrome",
     "cy:report": "node report.js"
   },
   "keywords": [],
